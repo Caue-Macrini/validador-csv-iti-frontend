@@ -48,7 +48,7 @@ const App: React.FC = () => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post<ValidationResult>('/validate', formData, {
+      const response = await axios.post<ValidationResult>('https://validador-csv-iti-backend.onrender.com', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setResult(response.data);
