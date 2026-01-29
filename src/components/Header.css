@@ -1,0 +1,43 @@
+.header-govbr {
+  background-color: #1351b4;
+  color: white;
+  padding: 1rem 10%;
+  border-bottom: 4px solid #f7c300;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-section {
+  flex-shrink: 0;
+}
+
+.govbr-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title-section {
+  flex-grow: 1;
+  margin-left: 2rem;
+}
+
+.title-section h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.title-section p {
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0 0;
+  opacity: 0.9;
+}
+
+.user-section {
+  font-size: 0.9rem;
+}

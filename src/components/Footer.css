@@ -1,0 +1,12 @@
+.footer-govbr {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 1.5rem 10%;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.875rem;
+}
+
+.footer-govbr p {
+  margin: 0.25rem 0;
+}
